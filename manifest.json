@@ -1,0 +1,18 @@
+{
+    "short_name": "Demon", 
+    "name": "Demon Slayer",
+    "start_url": "index.html", 
+    "background_color": "#000", 
+    "theme_color": "#000",
+    "display": "standalone",
+    "orientation": "portrait", 
+    "icons": [
+        {
+            "src":"img/icono1.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+       
+    ]
+    }
+      

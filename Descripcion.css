@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#infoPilar {
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+/* Estilos para el botón de "Volver" */
+a {
+    display: inline-block;
+    margin-top: 20px; /* Ajusta el espaciado superior según tus preferencias */
+    padding: 10px 20px;
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border: 2px solid #007BFF; /* Borde del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Cambia los colores cuando el cursor está sobre el botón */
+a:hover {
+    background-color: #0056b3;
+    border: 2px solid #0056b3;
+}

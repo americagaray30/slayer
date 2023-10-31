@@ -1,0 +1,61 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+select {
+    background-color: #444;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+#fotoPilar {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 70px auto; /* Aumenta el valor de margin-top para mover la imagen más abajo */
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border: 2px solid transparent; /* Agrega un borde transparente */
+    border-radius: 50px; /* Agrega un radio para dar forma redonda a la imagen */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Agrega un efecto de sombra alrededor de la imagen */
+}
+
+#fotoPilar:hover {
+    transform: scale(1.1);
+}
+/* Estilos para el botón "Volver" */
+.boton-volver {
+    display: inline-block;
+    margin-top: 20px; /* Ajusta el espaciado superior según tus preferencias */
+    padding: 10px 20px;
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border: 2px solid #007BFF; /* Borde del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Cambia los colores cuando el cursor está sobre el botón */
+.boton-volver:hover {
+    background-color: #0056b3;
+    border: 2px solid #0056b3;
+}
+
+
+
+
+
+
+
